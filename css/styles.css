@@ -499,7 +499,7 @@ p {
 }
 
 .formlabel-box {
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
@@ -511,7 +511,7 @@ p {
     line-height: 2;
     letter-spacing: 0.04em;
     color: #ffffff;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .formlabel-box::placeholder {
@@ -651,6 +651,7 @@ p {
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-sizing: border-box;
 }
 
 .form-input:focus {
@@ -686,6 +687,7 @@ p {
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-sizing: border-box;
 }
 
 .form-comment::placeholder {
